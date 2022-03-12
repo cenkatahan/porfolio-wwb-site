@@ -1,17 +1,27 @@
-.profile{
-    height: 10%;
-    width: 10%;
-    position: relative;
-}
-
-.top-nav-bar{
-    height: 100px;
-    width: 100%;
-    background-color: bisque;
-    position: relative;
-    top: 0%;
-}
-
 body{
-    background-color: gray;
+    background-color: white;
 }
+
+.side-bar{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: #F0A500;
+    display: inline-block;
+    z-index: 1;
+}
+.profile{
+    position: relative;
+    height: 40%;
+    width: 50%;
+    border-radius: 52px;
+    top: 24px;
+    left: 20%;
+}
+.about-me{
+    color: white;
+    margin: 10%;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
